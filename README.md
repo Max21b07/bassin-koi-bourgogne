@@ -24,3 +24,23 @@ Les fichiers principaux sont :
 - `app.js`
 
 Le site fonctionne sans backend.
+
+## Audio pédagogique
+
+Les capsules audio restent optionnelles et ne font pas partie du déploiement GitHub Pages.
+
+Procédure locale :
+
+1. Générer les audios avec VoxCPM2 à partir de la voix du propriétaire du site.
+2. Placer les fichiers `.mp3` dans le dossier `audio/`.
+3. Vérifier le site avec les commandes de contrôle habituelles.
+4. Commiter puis pousser les changements.
+
+Fichiers attendus :
+
+- `audio/intro-bassin.mp3`
+- `audio/fontaine-oxygenation.mp3`
+- `audio/koi-poissons-rouges.mp3`
+- `audio/cycle-azote.mp3`
+- `audio/diagnostic-global.mp3`
+- `audio/routine-saisonniere.mp3`

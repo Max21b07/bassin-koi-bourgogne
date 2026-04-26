@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://max21b07.github.io/bassin-koi-bourgogne/sitemap.xml
