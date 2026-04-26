@@ -26,7 +26,9 @@
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#041923" />
+    <meta name="author" content="max21b07" />
     <title>Bassin extérieur 2,5 m³ | Poissons rouges, koï et fontaine</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23041923'/><circle cx='50' cy='50' r='35' fill='%2359d2d8' opacity='0.7'/><ellipse cx='50' cy='50' rx='20' ry='10' fill='%23f47a3b'/></svg>" />
     <link rel="stylesheet" href="./styles.css" />
     <script type="application/ld+json">
       {
@@ -88,7 +90,7 @@
   <body>
     <a class="skip-link" href="#contenu">Aller au contenu</a>
     <header class="site-header">
-      <a class="brand" href="#accueil" aria-label="Accueil Bassin 2,5 m3">
+      <a class="brand" href="https://max21b07.github.io/bassin-koi-bourgogne/" aria-label="Accueil — Bassin 2,5 m³">
         <span class="brand-mark" aria-hidden="true"></span>
         <span>Bassin 2,5 m³</span>
       </a>
@@ -100,8 +102,9 @@
         <a href="#qualite">Eau</a>
         <a href="#problemes">Urgences</a>
       </nav>
-      <button class="theme-toggle" type="button" aria-label="Changer le thème">
-        <span aria-hidden="true">◐</span>
+      <button class="theme-toggle" type="button" aria-label="Changer le thème" title="Changer le thème">
+        <span class="theme-icon" aria-hidden="true">◐</span>
+        <span class="sr-only">Thème actuel : sombre</span>
       </button>
     </header>
 
@@ -265,6 +268,12 @@
               d="M36 487 C172 462 250 499 374 479 C526 454 635 470 759 492 L759 520 L36 520 Z"
             />
           </svg>
+          <img
+            class="hero-photo"
+            src="./images/koi-pond-1.jpg"
+            alt="Bassin de jardin avec koï et poissons rouges — photo Nguyen Thi Thanh Nh via Pexels (libre de droits)"
+            loading="eager"
+          />
         </div>
 
         <aside class="quick-sheet" aria-label="Fiche rapide">
@@ -404,17 +413,19 @@
       </section>
 
       <div class="layout">
-        <aside class="side-toc" aria-label="Sommaire">
+        <nav class="side-toc" aria-label="Sommaire">
           <p>Parcours du bassin</p>
-          <a href="#melange">Poissons rouges + koï</a>
-          <a href="#surface">Surface et oxygène</a>
-          <a href="#milieu">Milieu vivant</a>
-          <a href="#fond">Fond et bactéries</a>
-          <a href="#outils">Tableau de bord</a>
-          <a href="#qualite">Qualité d’eau</a>
-          <a href="#problemes">Problèmes</a>
-          <a href="#configuration">Configuration 2,5 m³</a>
-        </aside>
+          <ul>
+            <li><a href="#melange">Poissons rouges + koï</a></li>
+            <li><a href="#surface">Surface et oxygène</a></li>
+            <li><a href="#milieu">Milieu vivant</a></li>
+            <li><a href="#fond">Fond et bactéries</a></li>
+            <li><a href="#outils">Tableau de bord</a></li>
+            <li><a href="#qualite">Qualité d’eau</a></li>
+            <li><a href="#problemes">Problèmes</a></li>
+            <li><a href="#configuration">Configuration 2,5 m³</a></li>
+          </ul>
+        </nav>
 
         <div class="content-flow">
           <section id="melange" class="guide-section split">
@@ -473,6 +484,12 @@
                 <text x="72" y="248">Poisson rouge</text>
                 <text x="302" y="248">Koï : plus grande, plus polluante</text>
               </svg>
+              <img
+                class="section-photo"
+                src="./images/koi-pond-2.jpg"
+                alt="Koï colorée dans un bassin de jardin — photo Reynald Oyodia via Pexels"
+                loading="lazy"
+              />
             </div>
           </section>
 
@@ -601,6 +618,12 @@
                 <text x="78" y="292">fontaine</text>
                 <text x="356" y="292">bulleur</text>
               </svg>
+              <img
+                class="section-photo"
+                src="./images/garden-fountain.jpg"
+                alt="Fontaine de jardin dans un bassin — photo libre de droits via Unsplash"
+                loading="lazy"
+              />
             </div>
           </section>
 
@@ -1162,6 +1185,9 @@
             </div>
             <div class="table-wrap table-switch">
               <table data-mobile-cards="quality">
+                <caption>
+                  Valeurs de référence pour un bassin de 2,5 m³ — lire avec prudence
+                </caption>
                 <thead>
                   <tr>
                     <th>Paramètre</th>

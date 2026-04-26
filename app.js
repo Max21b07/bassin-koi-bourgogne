@@ -939,13 +939,15 @@ function bindTheme() {
 
   document.querySelector(".theme-toggle")?.addEventListener("click", () => {
     root.classList.toggle("light");
+    const isLight = root.classList.contains("light");
     try {
-      localStorage.setItem(
-        "pond-theme",
-        root.classList.contains("light") ? "light" : "dark",
-      );
+      localStorage.setItem("pond-theme", isLight ? "light" : "dark");
     } catch {
       // Ignore persistence errors.
+    }
+    const srText = document.querySelector(".theme-toggle .sr-only");
+    if (srText) {
+      srText.textContent = `Thème actuel : ${isLight ? "clair" : "sombre"}`;
     }
   });
 }
